@@ -6,7 +6,7 @@
 # Change 1..1 below to 1..last_test_to_print .
 # (It may become useful if the test is moved to ./t subdirectory.)
 
-BEGIN { $| = 1; print "1..4\n"; }
+BEGIN { $| = 1; print "1..6\n"; }
 END {print "not ok 1\n" unless $loaded;}
 use Sub::Approx;
 $loaded = 1;
@@ -29,3 +29,14 @@ print &b eq 'bb' ? '' : 'not ', "ok 3\n";
 eval "&c";
 print $@ ? '' : 'not ', "ok 4\n";
 
+Sub::Approx->import(match => \&always_bb);
+
+print &a eq 'bb' ? '' : 'not ', "ok 5\n";
+
+Sub::Approx->import(match => sub { 'aa' });
+
+print &b eq 'aa' ? '' : 'not ', "ok 6\n";
+
+sub always_bb {
+  'bb';
+}

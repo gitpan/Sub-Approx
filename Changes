@@ -9,5 +9,8 @@ Revision history for Perl extension Sub::Approx.
 0.03  Thu Jul 27 11:19:44 2000
         - Corrected typos (more haste less whatsit!)
 
-0.03  Fri Jul 28 09:32:28 2000
+0.04  Fri Jul 28 09:32:28 2000
         - Corrected module description.
+
+0.05  Fri Aug 18 11:09:51 2000
+        - Added user configurable features (thanks Leon)
