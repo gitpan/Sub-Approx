@@ -9,7 +9,7 @@ code as it will make your program almost completely unmaintainable.
 
 I only wrote this module to test my understanding of typeglobs and
 AUTOLOAD. I really don't expect it to have any sensible uses at all
-(but if you find one, I'd be interested in knowing waht it is).
+(but if you find one, I'd be interested in knowing what it is).
 
 HOW DO I INSTALL IT?
 
@@ -18,7 +18,7 @@ therefore by installed using the standard Perl method which, in
 brief, goes something like this:
 
    gzip -cd Sub-Approx-X.XX.tar.gz | tar xvf -
-   cd Array-Compare-X.XX
+   cd Sub-Approx-X.XX
    perl Makefile.PL
    make
    make test
@@ -27,8 +27,8 @@ brief, goes something like this:
 Where X.XX is the version number of the module which you are 
 installing.
 
-If this doesn't work for you then creating a directory called Array
-somewhere in your Perl library path (@INC) and copying the Compare.pm
+If this doesn't work for you then creating a directory called Sub
+somewhere in your Perl library path (@INC) and copying the Approx.pm
 file into this directory should also do the trick.
 
 

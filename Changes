@@ -4,5 +4,8 @@ Revision history for Perl extension Sub::Approx.
 	- original version; created by h2xs 1.19
 
 0.02  Thu Jul 27 11:13:37 2000
-        - added README and COPYNIG files to tarball
+        - added README and COPYING files to tarball
+
+0.03  Thu Jul 27 11:19:44 2000
+        - Corrected typos (most haste less whatsit!)
 

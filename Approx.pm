@@ -4,7 +4,7 @@ use strict;
 use vars qw($VERSION @ISA $AUTOLOAD);
 use Text::Soundex;
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 # import is called when another script uses this module.
 # All we do here is overwrite the callers AUTOLOAD function
