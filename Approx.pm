@@ -4,7 +4,7 @@ use strict;
 use vars qw($VERSION @ISA $AUTOLOAD);
 use Text::Soundex;
 
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 # import is called when another script uses this module.
 # All we do here is overwrite the callers AUTOLOAD function
@@ -59,7 +59,7 @@ __END__
 
 =head1 NAME
 
-Sub::Approx - Perl extension for blah blah blah
+Sub::Approx - Perl extension for calling subroutines using approximate names!
 
 =head1 SYNOPSIS
 
