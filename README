@@ -31,6 +31,12 @@ If this doesn't work for you then creating a directory called Sub
 somewhere in your Perl library path (@INC) and copying the Approx.pm
 file into this directory should also do the trick.
 
+PREREQUISITES
+
+As of version 1.03 of Sub::Approx all of the clever glob-walking code
+has been extracted into another module called GlobWalker.pm which is
+also available from the CPAN. You'll need to install that before 
+installing Sub::Approx.
 
 WHERE IS THE DOCUMENTATION?
 

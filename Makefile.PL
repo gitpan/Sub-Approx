@@ -4,4 +4,5 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'	=> 'Sub::Approx',
     'VERSION_FROM' => 'Approx.pm', # finds $VERSION
+    'PREREQ_PM' => { GlobWalker => 0 },
 );
