@@ -14,3 +14,12 @@ Revision history for Perl extension Sub::Approx.
 
 0.05  Fri Aug 18 11:09:51 2000
         - Added user configurable features (thanks Leon)
+
+1.01  Thu Aug 24 18:52:48 2000
+        - Various tidying
+
+1.02  Mon Oct 09 19:50:18
+        - Incorporated Robin's patches:
+          * Don't assume we're being called from main
+          * Allow different packages to use different Approx semantics
+          * New tests
